@@ -3,7 +3,15 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    api: "All is fine.",
+    message: "Server is running successfully.",
+    status: "success",
+  });
+});
+
+app.get("/api", (req, res) => {
+  res.status(200).json({
+    message: "API is working correctly.",
+    status: "success",
   });
 });
 
