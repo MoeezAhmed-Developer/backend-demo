@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "backend-demo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
